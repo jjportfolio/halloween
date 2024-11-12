@@ -38,6 +38,11 @@ let homeSwiper = new Swiper(".home-swiper", {
         el: ".swiper-pagination",
         clickable: true,
       },
+    
+    autoplay: {
+        delay: 4000, 
+        disableOnInteraction: false, 
+    }  
 })
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
